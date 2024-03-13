@@ -17,14 +17,25 @@
             android:layout_height="150dp"
             android:layout_weight="1"
             android:adjustViewBounds="true"
-            android:src="@drawable/limpio" />
+            android:src="@drawable/loader"
+            android:layout_marginTop="30dp"/>
+
     </LinearLayout>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/startGame"
+        android:layout_marginHorizontal="70dp"/>
 
     <LinearLayout
         android:id="@+id/boardGame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -123,8 +134,9 @@
         android:id="@+id/reloadGame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:text="@string/reloadButton"/>
+        android:layout_marginTop="10dp"
+        android:text="@string/reloadButton"
+        android:layout_marginHorizontal="100dp"/>
 
 </LinearLayout>
 

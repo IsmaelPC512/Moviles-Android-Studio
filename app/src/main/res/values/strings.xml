@@ -3,4 +3,5 @@
     <string name="title">Imagen de titulo</string>
     <string name="button">icono de juego</string>
     <string name="reloadButton">Reiniciar Juego</string>
+    <string name="startGame">Iniciar Juego</string>
 </resources>
